@@ -5,19 +5,35 @@ This paper introduces **E**asy **M**edium **H**ard **B**enchmark(EMHB), a compre
 ## Acknowledgement
 We are grateful for the code and datasets provided by the following GitHub repositories:
 https://github.com/thuml/TimesNet
+
 https://github.com/wanghq21/MICN
+
 https://github.com/luodhhh/ModernTCN
+
 https://github.com/cure-lab/SCINet
+
 https://github.com/philipperemy/n-beats
+
 https://github.com/cure-lab/LTSF-Linear
+
 https://github.com/Thinklab-SJTU/Crossformer
+
 https://github.com/MAZiqing/FEDformer
+
 https://github.com/zhouhaoyi/Informer2020
+
 https://github.com/thuml/Autoformer
+
 https://github.com/yuqinie98/patchtst
+
 https://github.com/thuml/iTransformer
+
 https://github.com/zongyi-li/fourier_neural_operator
+
 https://github.com/ts-kim/RevIN
+
 https://github.com/thuml/Flowformer
+
 https://github.com/shreyansh26/FlashAttention-PyTorch
+
 https://github.com/philipperemy/n-beats
