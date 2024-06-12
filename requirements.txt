@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+torchvision
+numpy
+matplotlib
+reformer_pytorch
+ptflops
+PyYAML
+patool
+nltk
+statsmodels
+sktime
+tensorboard
+fastdtw

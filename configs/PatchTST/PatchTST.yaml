@@ -1,0 +1,74 @@
+# random seed
+seed: 2021
+
+# basic config
+do_train: True
+model_id: 'test'
+model: 'PatchTST'
+
+# data loader
+data: 'custom'
+root_path: './data/ETT/'
+data_path: 'ETTh1.csv'
+features: 'M'
+target: 'OT'
+freq: 'h'
+checkpoints: './checkpoints/'
+
+# forecasting task
+seq_len: 96
+label_len: 48
+pred_len: 96
+
+# DLinear
+fc_dropout: 0.05
+head_dropout: 0.0
+patch_len: 16
+stride: 8
+padding_patch: 'end'
+revin: 1
+affine: 0
+subtract_last: 0
+decomposition: 0
+kernel_size: 25
+individual: 0
+
+
+# Formers
+embed_type: 0
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 512
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 2048
+moving_avg: 25
+factor: 1
+distil: True
+dropout: 0.05
+embed: 'timeF'
+activation: 'gelu'
+output_attention: False
+do_predict: False
+
+# optimization
+num_workers: 10
+itr: 1
+train_epochs: 100
+batch_size: 128
+patience: 100
+learning_rate: 0.0001
+des: 'test'
+loss: 'mse'
+lradj: 'type3'
+pct_start: 0.3
+use_amp: False
+
+# GPU
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'
+test_flop: False

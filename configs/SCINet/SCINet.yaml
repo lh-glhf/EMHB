@@ -1,0 +1,60 @@
+# random seed
+seed: 2021
+
+# Task Config
+task_name: 'long_term_forecast'
+do_train: 1
+model_id: 'test'
+# ------- model settings --------------
+model: SCINet
+# ------- dataset settings --------------
+data: ETTh1 # name of dataset
+root_path: ./datasets/ETT-data/ # root path of the data file
+data_path: ETTh1.csv # location of the data file
+features: M # features S is univariate, M is multivariate
+target: OT # target feature
+freq: h # freq for time features encoding, options:[s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h
+checkpoints: exp/ETT_checkpoints/ # location of model checkpoints
+inverse: false # denorm the output data
+embed: timeF # time features encoding, options:[timeF, fixed, learned]
+# ------- device settings --------------
+use_gpu: true # use gpu
+gpu: 0 # gpu
+use_multi_gpu: false # use multiple gpus
+devices: '0' # device ids of multiple gpus
+# ------- input/output length settings --------------
+seq_len: 96 # input sequence length of SCINet encoder, look back window
+label_len: 48 # start token length of Informer decoder
+pred_len: 48 # prediction sequence length, horizon
+concat_len: 0
+single_step: 0
+single_step_output_One: 0
+lastWeight: 1.0
+# ------- training settings --------------
+cols:  []# file list
+num_workers: 0 # data loader num workers
+itr: 1 # experiments times
+train_epochs: 100 # train epochs
+batch_size: 32 # batch size of train input data
+patience: 5 # early stopping patience
+lr: 0.0001 # optimizer learning rate
+loss: mae # loss function
+lradj: type1 # adjust learning rate
+use_amp: False # use automatic mixed precision training
+save: False # save the output results
+resume: False
+evaluate: False
+# ------- model settings --------------
+hidden_size: 1 # hidden channel of module
+INN: 1 # use INN or basic strategy
+kernel: 5 # kernel size, 3, 5, 7
+dilation: 1 # dilation
+window_size: 12 # input size
+dropout: 0.5 # dropout
+positionalEcoding: False
+groups: 1
+levels: 3
+stacks: 1 # 1 stack or 2 stacks
+num_decoder_layer: 1
+RIN: False
+decompose: False

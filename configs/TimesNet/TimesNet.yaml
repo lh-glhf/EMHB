@@ -1,0 +1,102 @@
+# random seed
+seed: 2021
+
+# Task Config
+task_name: 'long_term_forecast'
+do_train: 1
+model_id: 'test'
+model: 'TimesNet'
+
+# Data Loader
+data: 'ETTm1'
+root_path: './data/ETT/'
+data_path: 'ETTh1.csv'
+features: 'M'
+target: 'OT'
+freq: 'h'
+checkpoints: './checkpoints/'
+
+# Forecasting Task
+seq_len: 96
+label_len: 48
+pred_len: 96
+seasonal_patterns: 'Monthly'
+inverse: False
+
+# Imputation Task
+mask_rate: 0.25
+
+# Anomaly Detection Task
+anomaly_ratio: 0.25
+
+# Model Define
+expand: 2
+d_conv: 4
+top_k: 5
+num_kernels: 6
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 32
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 2048
+moving_avg: 25
+factor: 1
+distil: False
+dropout: 0.1
+embed: 'timeF'
+activation: 'gelu'
+output_attention: False
+channel_independence: 1
+decomp_method: 'moving_avg'
+use_norm: 1
+down_sampling_layers: 0
+down_sampling_window: 1
+down_sampling_method: None
+seg_len: 48
+
+# Optimization
+num_workers: 10
+itr: 1
+train_epochs: 10
+batch_size: 32
+patience: 3
+learning_rate: 0.0001
+des: 'test'
+loss: 'MSE'
+lradj: 'type1'
+use_amp: False
+
+# GPU
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'
+
+# De-stationary Projector
+p_hidden_dims: [128, 128]
+p_hidden_layers: 2
+
+# Metrics (DTW)
+use_dtw: False
+
+# Augmentation
+augmentation_ratio: 0
+jitter: False
+scaling: False
+permutation: False
+randompermutation: False
+magwarp: False
+timewarp: False
+windowslice: False
+windowwarp: False
+rotation: False
+spawner: False
+dtwwarp: False
+shapedtwwarp: False
+wdba: False
+discdtw: False
+discsdtw: False
+extra_tag: ''

@@ -1,0 +1,46 @@
+#Basic
+do_train: True
+task_id: test
+model: Crossformer
+seed: 2021
+
+# Data
+data: 'ETTh1'
+root_path: './dataset/'
+data_path: 'ETTh1.csv'
+data_split: '0.7,0.1,0.2'
+checkpoints: './checkpoints/'
+
+# MTS Lengths
+in_len: 96
+out_len: 24
+seg_len: 6
+win_size: 2
+
+# TSA Configuration
+factor: 10
+data_dim: 7
+d_model: 256
+d_ff: 512
+n_heads: 4
+e_layers: 3
+dropout: 0.2
+baseline: False
+
+# Data Loader
+num_workers: 0
+batch_size: 32
+
+# Training
+train_epochs: 20
+patience: 3
+learning_rate: 1e-4
+lradj: 'type1'
+itr: 1
+save_pred: False
+
+# GPU
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'

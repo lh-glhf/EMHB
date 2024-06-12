@@ -1,0 +1,66 @@
+# Basic Config
+seed: 2021
+do_train: 1
+task_id: 'test'
+model: 'LSTM'
+
+# Data Loader
+data: 'ETTm1'
+root_path: './data/ETT/'
+data_path: 'ETTh1.csv'
+features: 'M'
+target: 'OT'
+freq: 'h'
+checkpoints: './checkpoints/'
+
+# Forecasting Task
+seq_len: 96
+label_len: 48
+pred_len: 96
+
+# Model Define
+# Hidden Layer Config
+p: 2 # order of the autoregressive part
+q: 1 # order of the moving average part
+d: 1 # degree of differencing
+stack_types: ["generic", "generic"] # Types of stacks
+nb_blocks_per_stack: 2 # Number of blocks per stack
+thetas_dim: [4, 4] # Thetas dimensions for each stack
+share_weights_in_stack: true # Whether to share weights in stack
+hidden_layer_units: 64 # Number of hidden layer units
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 512
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 2048
+moving_avg: 25
+factor: 1
+distil: True
+dropout: 0.05
+embed: 'timeF'
+activation: 'gelu'
+output_attention: False
+do_predict: True
+
+# Optimization
+num_workers: 10
+itr: 1
+train_epochs: 10
+batch_size: 32
+patience: 3
+learning_rate: 0.0001
+des: 'test'
+loss: 'mse'
+lradj: 'type1'
+use_amp: False
+
+# GPU
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'
+
+

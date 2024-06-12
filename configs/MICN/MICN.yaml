@@ -1,0 +1,56 @@
+# Experiment Config
+# random seed
+seed: 2021
+
+
+# basic config
+do_train: True
+model_id: 'test'
+model: 'MICN'
+
+
+mode: 'regre'
+data: 'ETTh1'
+root_path: './data/ETT/'
+data_path: 'ETTh1.csv'
+features: 'M'
+target: 'OT'
+freq: 't'
+checkpoints: './checkpoints/'
+conv_kernel: [12, 16]
+decomp_kernel: [17, 49]
+isometric_kernel: [17, 49]
+# seq_len must be equal to label len
+seq_len: 96
+label_len: 96
+pred_len: 336
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 512
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 2048
+padding: 0
+dropout: 0.05
+embed: 'timeF'
+activation: 'gelu'
+output_attention: False
+do_predict: True
+cols: []
+num_workers: 0
+itr: 1
+train_epochs: 15
+batch_size: 32
+patience: 3
+learning_rate: 0.001
+des: 'test'
+loss: 'mse'
+lradj: 'type1'
+use_amp: False
+inverse: False
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'

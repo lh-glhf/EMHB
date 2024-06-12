@@ -1,0 +1,66 @@
+# Basic Config
+do_train: True
+task_id: test
+model: iTransformer
+seed: 2021
+
+# Data Loader
+data: 'custom'
+root_path: './data/electricity/'
+data_path: 'electricity.csv'
+features: 'M'
+target: 'OT'
+freq: 'h'
+checkpoints: './checkpoints/'
+
+# Forecasting Task
+seq_len: 96
+label_len: 48
+pred_len: 96
+
+# Model Define
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 512
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 2048
+moving_avg: 25
+factor: 1
+distil: False
+dropout: 0.1
+embed: 'timeF'
+activation: 'gelu'
+output_attention: False
+do_predict: True
+
+# Optimization
+num_workers: 10
+itr: 1
+train_epochs: 3
+batch_size: 128
+patience: 3
+learning_rate: 0.0001
+des: 'test'
+loss: 'MSE'
+lradj: 'type1'
+use_amp: False
+
+# GPU
+use_gpu: True
+gpu: 0
+use_multi_gpu: False
+devices: '0,1,2,3'
+
+# iTransformer
+exp_name: 'MTSF'
+channel_independence: False
+inverse: False
+class_strategy: 'projection'
+target_root_path: './data/electricity/'
+target_data_path: 'electricity.csv'
+efficient_training: False
+use_norm: True
+partial_start_index: 0
