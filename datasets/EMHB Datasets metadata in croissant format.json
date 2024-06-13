@@ -1,0 +1,1784 @@
+{
+    "@type": "sc:Dataset",
+    "name": "EMHB Datasets",
+    "version": "1.0.0",
+    "distribution": [
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn1.csv_fileobject",
+            "name": "ETTn1",
+            "contentUrl": "ETT_new/ETTn1.csv",
+            "contentSize": "10422702 B",
+            "encodingFormat": "text/csv",
+            "sha256": "9b96aff9e69d9535da200d5ecb8da58c6cd0cdcbb3416dc3ad1b29e387900ac2"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn2.csv_fileobject",
+            "name": "ETTn2",
+            "contentUrl": "ETT_new/ETTn2.csv",
+            "contentSize": "10396905 B",
+            "encodingFormat": "text/csv",
+            "sha256": "191b7597220c8c5b5640294ecb05c43b5372b026decfad944f5cbf1aa34b0481"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn3.csv_fileobject",
+            "name": "ETTn3",
+            "contentUrl": "ETT_new/ETTn3.csv",
+            "contentSize": "10582494 B",
+            "encodingFormat": "text/csv",
+            "sha256": "1f02a8c10b9f42037bb3faeb4a581c067abe704fc7c95daf656ee769297e5501"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn4.csv_fileobject",
+            "name": "ETTn4",
+            "contentUrl": "ETT_new/ETTn4.csv",
+            "contentSize": "10578958 B",
+            "encodingFormat": "text/csv",
+            "sha256": "2a1eb1962162a3a478d2a5a26ea1d7560c95dcc87a495cdb89784c02620430ca"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn5.csv_fileobject",
+            "name": "ETTn5",
+            "contentUrl": "ETT_new/ETTn5.csv",
+            "contentSize": "10610450 B",
+            "encodingFormat": "text/csv",
+            "sha256": "dfad3e687f811d1ad7a87e1ccaf85b0f96dbebf2d0d18b1978134158f22153e6"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "ETTn6.csv_fileobject",
+            "name": "ETTn6",
+            "contentUrl": "ETT_new/ETTn6.csv",
+            "contentSize": "10564309 B",
+            "encodingFormat": "text/csv",
+            "sha256": "037446548ffd70aa5190e8538a7f0d6da5f2751699963eff339f2f5b09d94cd2"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "tec1.csv_fileobject",
+            "name": "tec1",
+            "contentUrl": "TEC/tec1.csv",
+            "contentSize": "6499634 B",
+            "encodingFormat": "text/csv",
+            "sha256": "7d18b83d6a9a74beb665ca1237541890c71fdeeee110b6dd210eec704c2c7fc5"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "tec2.csv_fileobject",
+            "name": "tec2",
+            "contentUrl": "TEC/tec2.csv",
+            "contentSize": "6476833 B",
+            "encodingFormat": "text/csv",
+            "sha256": "774e821a488fa92e1c1a1dea74f7908e70d62c06757021b0809a9cfa2f410438"
+        },
+        {
+            "@type": "cr:FileObject",
+            "@id": "tec3.csv_fileobject",
+            "name": "tec3",
+            "contentUrl": "TEC/tec3.csv",
+            "contentSize": "6470256 B",
+            "encodingFormat": "text/csv",
+            "sha256": "e62bea34c70baca1133a9a62f54c4d15f232a797240ca6279f63f646ce5f8d60"
+        }
+    ],
+    "recordSet": [
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn1.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn1.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn1.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn1.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn1.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn2.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn2.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn2.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn2.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn2.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn3.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn3.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn3.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn3.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn3.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn4.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn4.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn4.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn4.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn4.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn4.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn5.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn5.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn5.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn5.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn5.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn5.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "ETTn6.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HUFL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/HUFL",
+                    "@type": "cr:Field",
+                    "name": "HUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "HULL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/HULL",
+                    "@type": "cr:Field",
+                    "name": "HULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MUFL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/MUFL",
+                    "@type": "cr:Field",
+                    "name": "MUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "MULL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/MULL",
+                    "@type": "cr:Field",
+                    "name": "MULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LUFL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/LUFL",
+                    "@type": "cr:Field",
+                    "name": "LUFL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "LULL"
+                        }
+                    },
+                    "@id": "ETTn6.csv/LULL",
+                    "@type": "cr:Field",
+                    "name": "LULL"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "ETTn6.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "OT"
+                        }
+                    },
+                    "@id": "ETTn6.csv/OT",
+                    "@type": "cr:Field",
+                    "name": "OT"
+                }
+            ],
+            "@id": "ETTn6.csv",
+            "@type": "cr:RecordSet",
+            "name": "ETTn6.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "tec1.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "TEC"
+                        }
+                    },
+                    "@id": "tec1.csv/TEC",
+                    "@type": "cr:Field",
+                    "name": "TEC"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Scalar B"
+                        }
+                    },
+                    "@id": "tec1.csv/Scalar\u002BB",
+                    "@type": "cr:Field",
+                    "name": "Scalar B"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Kp index"
+                        }
+                    },
+                    "@id": "tec1.csv/Kp\u002Bindex",
+                    "@type": "cr:Field",
+                    "name": "Kp index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Dst-index"
+                        }
+                    },
+                    "@id": "tec1.csv/Dst-index",
+                    "@type": "cr:Field",
+                    "name": "Dst-index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "ap_index"
+                        }
+                    },
+                    "@id": "tec1.csv/ap_index",
+                    "@type": "cr:Field",
+                    "name": "ap_index"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Vector B Mangnitude"
+                        }
+                    },
+                    "@id": "tec1.csv/Vector\u002BB\u002BMangnitude",
+                    "@type": "cr:Field",
+                    "name": "Vector B Mangnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bx (GSE, GSM)"
+                        }
+                    },
+                    "@id": "tec1.csv/Bx\u002B(GSE%2C\u002BGSM)",
+                    "@type": "cr:Field",
+                    "name": "Bx (GSE, GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSE)"
+                        }
+                    },
+                    "@id": "tec1.csv/By\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "By (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSE)"
+                        }
+                    },
+                    "@id": "tec1.csv/Bz\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSM)"
+                        }
+                    },
+                    "@id": "tec1.csv/By\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "By (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSM)"
+                        }
+                    },
+                    "@id": "tec1.csv/Bz\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_magnitude"
+                        }
+                    },
+                    "@id": "tec1.csv/RMS_magnitude",
+                    "@type": "cr:Field",
+                    "name": "RMS_magnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_field_vector"
+                        }
+                    },
+                    "@id": "tec1.csv/RMS_field_vector",
+                    "@type": "cr:Field",
+                    "name": "RMS_field_vector"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bx_GSE"
+                        }
+                    },
+                    "@id": "tec1.csv/RMS_Bx_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bx_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_By_GSE"
+                        }
+                    },
+                    "@id": "tec1.csv/RMS_By_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_By_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec1.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bz_GSE"
+                        }
+                    },
+                    "@id": "tec1.csv/RMS_Bz_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bz_GSE"
+                }
+            ],
+            "@id": "tec1.csv",
+            "@type": "cr:RecordSet",
+            "name": "tec1.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "tec2.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "TEC"
+                        }
+                    },
+                    "@id": "tec2.csv/TEC",
+                    "@type": "cr:Field",
+                    "name": "TEC"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Scalar B"
+                        }
+                    },
+                    "@id": "tec2.csv/Scalar\u002BB",
+                    "@type": "cr:Field",
+                    "name": "Scalar B"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Kp index"
+                        }
+                    },
+                    "@id": "tec2.csv/Kp\u002Bindex",
+                    "@type": "cr:Field",
+                    "name": "Kp index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Dst-index"
+                        }
+                    },
+                    "@id": "tec2.csv/Dst-index",
+                    "@type": "cr:Field",
+                    "name": "Dst-index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "ap_index"
+                        }
+                    },
+                    "@id": "tec2.csv/ap_index",
+                    "@type": "cr:Field",
+                    "name": "ap_index"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Vector B Mangnitude"
+                        }
+                    },
+                    "@id": "tec2.csv/Vector\u002BB\u002BMangnitude",
+                    "@type": "cr:Field",
+                    "name": "Vector B Mangnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bx (GSE, GSM)"
+                        }
+                    },
+                    "@id": "tec2.csv/Bx\u002B(GSE%2C\u002BGSM)",
+                    "@type": "cr:Field",
+                    "name": "Bx (GSE, GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSE)"
+                        }
+                    },
+                    "@id": "tec2.csv/By\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "By (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSE)"
+                        }
+                    },
+                    "@id": "tec2.csv/Bz\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSM)"
+                        }
+                    },
+                    "@id": "tec2.csv/By\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "By (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSM)"
+                        }
+                    },
+                    "@id": "tec2.csv/Bz\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_magnitude"
+                        }
+                    },
+                    "@id": "tec2.csv/RMS_magnitude",
+                    "@type": "cr:Field",
+                    "name": "RMS_magnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_field_vector"
+                        }
+                    },
+                    "@id": "tec2.csv/RMS_field_vector",
+                    "@type": "cr:Field",
+                    "name": "RMS_field_vector"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bx_GSE"
+                        }
+                    },
+                    "@id": "tec2.csv/RMS_Bx_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bx_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_By_GSE"
+                        }
+                    },
+                    "@id": "tec2.csv/RMS_By_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_By_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec2.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bz_GSE"
+                        }
+                    },
+                    "@id": "tec2.csv/RMS_Bz_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bz_GSE"
+                }
+            ],
+            "@id": "tec2.csv",
+            "@type": "cr:RecordSet",
+            "name": "tec2.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Date"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "date"
+                        }
+                    },
+                    "@id": "tec3.csv/date",
+                    "@type": "cr:Field",
+                    "name": "date"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "TEC"
+                        }
+                    },
+                    "@id": "tec3.csv/TEC",
+                    "@type": "cr:Field",
+                    "name": "TEC"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Scalar B"
+                        }
+                    },
+                    "@id": "tec3.csv/Scalar\u002BB",
+                    "@type": "cr:Field",
+                    "name": "Scalar B"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Kp index"
+                        }
+                    },
+                    "@id": "tec3.csv/Kp\u002Bindex",
+                    "@type": "cr:Field",
+                    "name": "Kp index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Dst-index"
+                        }
+                    },
+                    "@id": "tec3.csv/Dst-index",
+                    "@type": "cr:Field",
+                    "name": "Dst-index"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "ap_index"
+                        }
+                    },
+                    "@id": "tec3.csv/ap_index",
+                    "@type": "cr:Field",
+                    "name": "ap_index"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Vector B Mangnitude"
+                        }
+                    },
+                    "@id": "tec3.csv/Vector\u002BB\u002BMangnitude",
+                    "@type": "cr:Field",
+                    "name": "Vector B Mangnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bx (GSE, GSM)"
+                        }
+                    },
+                    "@id": "tec3.csv/Bx\u002B(GSE%2C\u002BGSM)",
+                    "@type": "cr:Field",
+                    "name": "Bx (GSE, GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSE)"
+                        }
+                    },
+                    "@id": "tec3.csv/By\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "By (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSE)"
+                        }
+                    },
+                    "@id": "tec3.csv/Bz\u002B(GSE)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSE)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "By (GSM)"
+                        }
+                    },
+                    "@id": "tec3.csv/By\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "By (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "Bz (GSM)"
+                        }
+                    },
+                    "@id": "tec3.csv/Bz\u002B(GSM)",
+                    "@type": "cr:Field",
+                    "name": "Bz (GSM)"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_magnitude"
+                        }
+                    },
+                    "@id": "tec3.csv/RMS_magnitude",
+                    "@type": "cr:Field",
+                    "name": "RMS_magnitude"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_field_vector"
+                        }
+                    },
+                    "@id": "tec3.csv/RMS_field_vector",
+                    "@type": "cr:Field",
+                    "name": "RMS_field_vector"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bx_GSE"
+                        }
+                    },
+                    "@id": "tec3.csv/RMS_Bx_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bx_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_By_GSE"
+                        }
+                    },
+                    "@id": "tec3.csv/RMS_By_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_By_GSE"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "tec3.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "RMS_Bz_GSE"
+                        }
+                    },
+                    "@id": "tec3.csv/RMS_Bz_GSE",
+                    "@type": "cr:Field",
+                    "name": "RMS_Bz_GSE"
+                }
+            ],
+            "@id": "tec3.csv",
+            "@type": "cr:RecordSet",
+            "name": "tec3.csv"
+        }
+    ],
+    "@context": {
+        "@language": "en",
+        "@vocab": "https://schema.org/",
+        "citeAs": "cr:citeAs",
+        "column": "cr:column",
+        "conformsTo": "dct:conformsTo",
+        "cr": "http://mlcommons.org/croissant/",
+        "rai": "http://mlcommons.org/croissant/RAI/",
+        "data": {
+            "@id": "cr:data",
+            "@type": "@json"
+        },
+        "dataType": {
+            "@id": "cr:dataType",
+            "@type": "@vocab"
+        },
+        "dct": "http://purl.org/dc/terms/",
+        "examples": {
+            "@id": "cr:examples",
+            "@type": "@json"
+        },
+        "extract": "cr:extract",
+        "field": "cr:field",
+        "fileProperty": "cr:fileProperty",
+        "fileObject": "cr:fileObject",
+        "fileSet": "cr:fileSet",
+        "format": "cr:format",
+        "includes": "cr:includes",
+        "isLiveDataset": "cr:isLiveDataset",
+        "jsonPath": "cr:jsonPath",
+        "key": "cr:key",
+        "md5": "cr:md5",
+        "parentField": "cr:parentField",
+        "path": "cr:path",
+        "recordSet": "cr:recordSet",
+        "references": "cr:references",
+        "regex": "cr:regex",
+        "repeated": "cr:repeated",
+        "replace": "cr:replace",
+        "sc": "https://schema.org/",
+        "separator": "cr:separator",
+        "source": "cr:source",
+        "subField": "cr:subField",
+        "transform": "cr:transform",
+        "wd": "https://www.wikidata.org/wiki/"
+    },
+    "conformsTo": "http://mlcommons.org/croissant/1.0"
+}
