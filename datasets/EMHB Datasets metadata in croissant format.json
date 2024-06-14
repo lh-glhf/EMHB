@@ -7,7 +7,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn1.csv_fileobject",
             "name": "ETTn1",
-            "contentUrl": "ETT_new/ETTn1.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10422702 B",
             "encodingFormat": "text/csv",
             "sha256": "9b96aff9e69d9535da200d5ecb8da58c6cd0cdcbb3416dc3ad1b29e387900ac2"
@@ -16,7 +16,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn2.csv_fileobject",
             "name": "ETTn2",
-            "contentUrl": "ETT_new/ETTn2.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10396905 B",
             "encodingFormat": "text/csv",
             "sha256": "191b7597220c8c5b5640294ecb05c43b5372b026decfad944f5cbf1aa34b0481"
@@ -25,7 +25,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn3.csv_fileobject",
             "name": "ETTn3",
-            "contentUrl": "ETT_new/ETTn3.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10582494 B",
             "encodingFormat": "text/csv",
             "sha256": "1f02a8c10b9f42037bb3faeb4a581c067abe704fc7c95daf656ee769297e5501"
@@ -34,7 +34,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn4.csv_fileobject",
             "name": "ETTn4",
-            "contentUrl": "ETT_new/ETTn4.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10578958 B",
             "encodingFormat": "text/csv",
             "sha256": "2a1eb1962162a3a478d2a5a26ea1d7560c95dcc87a495cdb89784c02620430ca"
@@ -43,7 +43,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn5.csv_fileobject",
             "name": "ETTn5",
-            "contentUrl": "ETT_new/ETTn5.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10610450 B",
             "encodingFormat": "text/csv",
             "sha256": "dfad3e687f811d1ad7a87e1ccaf85b0f96dbebf2d0d18b1978134158f22153e6"
@@ -52,7 +52,7 @@
             "@type": "cr:FileObject",
             "@id": "ETTn6.csv_fileobject",
             "name": "ETTn6",
-            "contentUrl": "ETT_new/ETTn6.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1A8UjnoWCTa67KW_A_XUblmZqvoV2UjWZ",
             "contentSize": "10564309 B",
             "encodingFormat": "text/csv",
             "sha256": "037446548ffd70aa5190e8538a7f0d6da5f2751699963eff339f2f5b09d94cd2"
@@ -61,7 +61,7 @@
             "@type": "cr:FileObject",
             "@id": "tec1.csv_fileobject",
             "name": "tec1",
-            "contentUrl": "TEC/tec1.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1wLKmlb55_MK00NaBnbbpXOi5qUdS24Tn",
             "contentSize": "6499634 B",
             "encodingFormat": "text/csv",
             "sha256": "7d18b83d6a9a74beb665ca1237541890c71fdeeee110b6dd210eec704c2c7fc5"
@@ -70,7 +70,7 @@
             "@type": "cr:FileObject",
             "@id": "tec2.csv_fileobject",
             "name": "tec2",
-            "contentUrl": "TEC/tec2.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1wLKmlb55_MK00NaBnbbpXOi5qUdS24Tn",
             "contentSize": "6476833 B",
             "encodingFormat": "text/csv",
             "sha256": "774e821a488fa92e1c1a1dea74f7908e70d62c06757021b0809a9cfa2f410438"
@@ -79,7 +79,7 @@
             "@type": "cr:FileObject",
             "@id": "tec3.csv_fileobject",
             "name": "tec3",
-            "contentUrl": "TEC/tec3.csv",
+            "contentUrl": "https://drive.google.com/drive/folders/1wLKmlb55_MK00NaBnbbpXOi5qUdS24Tn",
             "contentSize": "6470256 B",
             "encodingFormat": "text/csv",
             "sha256": "e62bea34c70baca1133a9a62f54c4d15f232a797240ca6279f63f646ce5f8d60"
